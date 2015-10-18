@@ -93,6 +93,10 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PACKAGES += \
     libbt-vendor
 
+# BoringSSL compatibility with OpenSSL blobs
+PRODUCT_PACKAGES += \
+    libboringssl-compat
+
 # Camera
 PRODUCT_PACKAGES += \
     libbson \
