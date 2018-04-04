@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/carbon_cedric.mk
+
+COMMON_LUNCH_CHOICES := \
+    carbon_cedric-user \
+    carbon_cedric-userdebug \
+    carbon_cedric-eng
