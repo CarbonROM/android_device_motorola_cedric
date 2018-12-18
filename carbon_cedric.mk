@@ -18,8 +18,11 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/cedric/full_cedric.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common carbon stuff.
+$(call inherit-product, vendor/carbon/config/common.mk)
+
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -27,7 +30,7 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cedric
-PRODUCT_NAME := lineage_cedric
+PRODUCT_NAME := carbon_cedric
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
