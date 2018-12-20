@@ -1,0 +1,14 @@
+[
+  {
+    "repository" : "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "revision"   : "lineage-16.0",
+    "remote"	 : "gh"
+  },
+  {
+    "repository" : "PixelExperience/packages_resources_MotoActions",
+    "target_path": "packages/resources/MotoActions",
+    "revision"   : "pie",
+    "remote"	 : "gh"
+  }
+]
