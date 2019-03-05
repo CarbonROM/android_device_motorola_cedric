@@ -16,4 +16,13 @@ allow rild cutback_data_file:sock_file create_file_perms;
 
 allow rild rild_exec:file execute_no_trans;
 
+allow rild persist_file:dir search;
+allow rild persist_file:file { read write };
+allow rild proc:file read;
+
 allow rild fwk_sensor_hwservice:hwservice_manager find;
+
+allow rild default_android_service:service_manager find;
+allow rild socket_device:sock_file write;
+allow rild system_server:binder call;
+allow rild vendor_data_file:file { lock open read };
