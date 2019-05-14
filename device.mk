@@ -248,14 +248,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.cedric \
     lights.msm8937
 
-# Display Calibration
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@1.0-service-sdm
-
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/configs/qdcm_calib_data_mipi_mot_vid_inx_1080p_497.xml:system/vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_497.xml \
-#    $(LOCAL_PATH)/configs/qdcm_calib_data_mipi_mot_vid_tianma_1080p_497.xml:system/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_497.xml
-
 # Media
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
