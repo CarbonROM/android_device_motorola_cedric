@@ -10,6 +10,12 @@
     "remote"	 : "gh"
   },
   {
+    "repository" : "LineageOS/android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "revision"   : "lineage-16.0",
+    "remote"	 : "gh"
+  },
+  {
     "repository" : "PixelExperience/packages_resources_MotoActions",
     "target_path": "packages/resources/MotoActions",
     "revision"   : "pie",
