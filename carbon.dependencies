@@ -16,7 +16,7 @@
     "remote"	 : "gh"
   },
   {
-    "repository" : "PixelExperience/packages_resources_MotoActions",
+    "repository" : "PixelExperience-Devices/old_packages_resources_MotoActions",
     "target_path": "packages/resources/MotoActions",
     "revision"   : "pie",
     "remote"	 : "gh"
